@@ -22,3 +22,11 @@
 # Project 3: Directory Bruter for PHP based Websites
 
 ![image](https://github.com/emreYbs/InfoSec-Projects/assets/59505246/715be368-5919-448a-aa2c-89b5211b44a1)
+
+![image](https://github.com/emreYbs/InfoSec-Projects/assets/59505246/26e3cd20-704c-496d-9353-56760f07e336)
+
+-You should write the name of the target website like this 🔗: https://www.website.com If you just provide it as "www.website.com", then you'll get an error.-
+
+-I used the *Netsparker's wordlist(SVNDigger)*. You can use this wordlist or a related one. To download directly: https://www.netsparker.com/s/research/SVNDigger.zip This wordlist focuses on php related leftovers, so if you use my script, it is better to aim php backend, or use a related wordlist and give the path for that wordlist, so you can get a better security check on server. It is useful for some bugbounty related projects.-
+
+**You need to provide the downloaded wordlist path. In the code I wrote, I assumed the path "desktop".**
