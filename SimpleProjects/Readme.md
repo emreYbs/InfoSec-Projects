@@ -18,3 +18,7 @@
 - WordPress content disclosure vulnerability
 - WordPress login page disclosure vulnerability
 - Login bypassing vulnerability
+
+# Project 3: Directory Bruter for PHP based Websites
+
+![image](https://github.com/emreYbs/InfoSec-Projects/assets/59505246/715be368-5919-448a-aa2c-89b5211b44a1)
