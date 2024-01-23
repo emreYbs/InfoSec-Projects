@@ -57,6 +57,7 @@ I blurred some parts in the image.
 - news @reddit  (This operator will work in Google. So the script will give an irrelevant results when you prefer to use it via Bing, but for other searches, Google Dorks can also be used in a similar way in Bing, Yandex, etc to some extent.
 - Fact Check @dw.com
 - Fransa @eksisozluk
+- inurl:zoom.us/j and intext:scheduled for
 
 ````I could give some more examples but no need because you can get more up to date and working Dorks via exloit.db or various blogs, from different Github repos. You may encounter Google Block and you may also need to be cautious with some sites because while I wrote this script and tested different Dorks, some sites were honepots and some had some malicous code. Since I tested on an updated and protected Windows VM for testing, not an issue for me. Yet, better to be cautious if you use Google Dorks and test sites a lot. Be respectful to the law and fair use of the script````
 
