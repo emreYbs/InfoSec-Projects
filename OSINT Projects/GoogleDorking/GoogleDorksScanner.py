@@ -123,14 +123,16 @@ def UsageExamples():
     sleep (0.2)
     print("1. Search for exposed database files:")
     sleep (0.1)
-    print("   python GoogleDorksScanner.py --query 'intitle:index of db' --engine google --pages 5 --processes 10")
+    print("   python GoogleDorksScanner.py --query 'intitle:index of db' --engine google --pages 5 --processes 10") # You can change the number of pages and processes as you wish.
+    sleep (0.1)
     sleep (0.1)
     print("Or Just provide the query like:  'intitle:index of db")
     sleep (0.2)
     print()
     print("2. Find vulnerable webcams:")
     sleep (0.2)
-    print("   python GoogleDorksScanner.py --query 'inurl:/view.shtml' --engine google --pages 3 --processes 5'")
+    print("   python GoogleDorksScanner.py --query 'inurl:/view.shtml' --engine google --pages 3 --processes 5'") # Webcam Dorks can change; sometimes work, sometimes not. So you may need to specify the video camera models, brands, etc.
+    sleep (0.2)
     sleep (0.1)
     print("Or Just provide the query like:  inurl:/view.shtml")
     sleep (0.2)
