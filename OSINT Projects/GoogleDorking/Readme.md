@@ -28,6 +28,12 @@ This simple Google search operator will find the information related to a specif
 
 <img width="656" alt="image" src="https://github.com/emreYbs/InfoSec-Projects/assets/59505246/f5f1c4d2-802a-4cd6-858e-f1911c5bc4b4">
 
+
+## Google Dorks can be very powerful and as you can see this dork let me find some vulnerable websites. I mailed the website owner/webmaster also left a small .txt file which explained the vulnearbility for the site owner.
+I blurred some parts in the image. 
+![image](https://github.com/emreYbs/InfoSec-Projects/assets/59505246/a5e33986-2130-4a81-af7d-5d20c966d0b2)
+
+
 ### Some Google Dorks that you can test:
 - inurl:8080 intitle:"Dashboard [Jenkins]"
 - "index of" "database.sql.zip"
@@ -40,6 +46,13 @@ This simple Google search operator will find the information related to a specif
 - Intitle:”webcamXP 5”’
 - (site:facebook.com | site:twitter.com) & intext:"login"
 - intitle:”index of” inurl:ftp.*edu
+- site:*/wp-includes/ inurl:/wp-includes/ + edu.tr (By adding edu.tr, edu.fr You can get better results. I use this Dork to notify the universities if I find a vulnerability after recon process.)
+- site:*/wp-includes/ inurl:/wp-includes/ + edu.*
+- inurl:wp-admin/admin-ajax.php inurl:wp-config.php + admin
+- site:*/wp-admin/user-edit.php inurl:*edu
+- site:*/wp-login?redirect_to= intitle:"login" + edu.*
+- site:*/wp-admin intext:define(WP_ALLOW_REPAIR,true) (I added a live example with this Google Dork on an actual website that I came across and reported as a responsible disclosure.)
+- intitle:responsible disclosure inurl:*edu.*  _(Generally, I like to inform educational institutions about the vulnerabilities that I come across.)_
 - linux @reddit  (Most of you may already know, but for anyone who doesn't know or use this @ command operator, I'd highly suggest it to narrow down your search for a specific social media site.
 - news @reddit  (This operator will work in Google. So the script will give an irrelevant results when you prefer to use it via Bing, but for other searches, Google Dorks can also be used in a similar way in Bing, Yandex, etc to some extent.
 - Fact Check @dw.com
