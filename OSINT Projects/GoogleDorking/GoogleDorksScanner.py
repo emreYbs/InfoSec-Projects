@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 #emreybs
+#encoding: utf-8
+#Google Dorks Scanner @github.com/emreYbs
+
 #Google Dorking is great for various reasons. For academicians, it is a great way to find research papers. For hackers, it is a great way to find vulnerable targets. For everyone else, it is a great way to find anything that is publicly available on the internet. 
 #I'll add 3 good sites for more info and Reference:https://www.maltego.com/blog/using-google-dorks-to-support-your-open-source-intelligence-investigations/
 #Another good Reference: https://www.freecodecamp.org/news/google-dorking-for-pentesters-a-practical-tutorial/
