@@ -3,6 +3,8 @@
 # @author EmreYbs | github.com/emreYbs
 # The aim of this simple python script is to  retrieve the latest posts from a subreddit and write them to a file.
 
+# EDIT: I wrote another version to be able to use API and added some more functions but still working on it and testing. I'll add that version here later.
+
 #Note: The script does not handle errors that may occur during API requests. So I will work on it and try to improve the code for futher needs. For now, it is simple and as it is needed.
 
 import praw  # pip install praw (Python Reddit API Wrapper)
